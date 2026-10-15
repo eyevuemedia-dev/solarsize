@@ -1,0 +1,122 @@
+[
+ {
+  "slug": "refrigerator",
+  "label": "a full-size refrigerator",
+  "name": "Samsung RT18DG6300 17.5 cu ft top-freezer refrigerator",
+  "watts": null,
+  "dailyWh": 912,
+  "basis": "38 W annual-average draw \u00d7 24 h",
+  "source": "https://data.energystar.gov/d/p5st-her9",
+  "note": "ENERGY STAR lists 333 kWh/year for RT18DG6300**, a 17.5 cu ft top freezer with no ice maker. Average draw is 333 \u00d7 1,000 \u00f7 8,760 = 38.0 W. Compressor running watts and startup watts are not in the listing, so Willrun will not issue a runs or won't-run verdict."
+ },
+ {
+  "slug": "mini-fridge",
+  "label": "a mini fridge",
+  "name": "Danby DCR032C1WDB 3.2 cu ft compact refrigerator",
+  "watts": 66.4,
+  "dailyWh": 598,
+  "basis": "24.9 W annual-average draw \u00d7 24 h",
+  "source": "https://www.danby.com/products/compact-refrigerators/dcr032c1wdb/",
+  "note": "Danby lists 115 V, 66.4 W, and 218 kWh/year. Average draw is 218 \u00d7 1,000 \u00f7 8,760 = 24.9 W. Duty cycle 0.375 is that average divided by 66.4 W, so it is an annual-average compressor fraction, not a hot-day measurement. Startup watts are not published."
+ },
+ {
+  "slug": "chest-freezer",
+  "label": "a chest freezer",
+  "name": "Whirlpool WZC3209LW 9 cu ft chest freezer",
+  "watts": null,
+  "dailyWh": 550,
+  "basis": "22.9 W annual-average draw \u00d7 24 h",
+  "source": "https://data.energystar.gov/d/8t9c-g3tn",
+  "note": "ENERGY STAR lists 201 kWh/year for this 9.0 cu ft manual-defrost chest freezer. Average draw is 22.9 W. Running and startup watts are not in the listing, so there is no run verdict."
+ },
+ {
+  "slug": "window-ac",
+  "label": "an 8,000 Btu window AC",
+  "name": "BLACK+DECKER BD08NWES 8,000 Btu/h window air conditioner",
+  "watts": 533.3,
+  "dailyWh": 4266,
+  "basis": "533.3 W \u00d7 8 h/day (assumed use)",
+  "source": "https://data.energystar.gov/d/5xn2-dv4h",
+  "note": "ENERGY STAR lists 8,000 Btu/h, CEER 15, 115 V, variable-speed compressor, and 400 kWh/year. Rated input is 8,000 \u00f7 15 = 533.3 W, which matches 400 kWh at 750 hours. Startup watts are not published."
+ },
+ {
+  "slug": "10000-btu-ac",
+  "label": "a 10,000 Btu window AC",
+  "name": "GE PWJV10 10,000 Btu/h window air conditioner",
+  "watts": 625,
+  "dailyWh": 5000,
+  "basis": "625 W \u00d7 8 h/day (assumed use)",
+  "source": "https://data.energystar.gov/d/5xn2-dv4h",
+  "note": "ENERGY STAR lists model PWJV10W**# at 10,000 Btu/h, CEER 16, and 468.8 kWh/year, with a variable-speed compressor. Rated input is 10,000 \u00f7 16 = 625 W. 625 \u00d7 750 \u00f7 1,000 = 468.75, which rounds to the listed 468.8 kWh. Startup watts are not published."
+ },
+ {
+  "slug": "cpap",
+  "label": "a CPAP",
+  "name": "ResMed AirSense 11, typical power from the user guide",
+  "watts": 56.1,
+  "dailyWh": 449,
+  "basis": "56.1 W \u00d7 8 h/day (assumed use)",
+  "source": "https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf",
+  "note": "Americas user guide, 65 W power supply section: typical power consumption 56.1 W (111.5 VA) and peak power consumption 73.2 W (137.6 VA). This is the published system figure, not the lower no-humidifier row on ResMed's separate therapy-power sheet."
+ },
+ {
+  "slug": "tv",
+  "label": "a 55-inch TV",
+  "name": "LG 55QNED85 55-inch TV",
+  "watts": 76.9,
+  "dailyWh": 384,
+  "basis": "76.9 W \u00d7 5 h/day (assumed use)",
+  "source": "https://data.energystar.gov/d/pd96-rr3d",
+  "note": "ENERGY STAR on-mode power for 55QNED85TU* is 76.9 W at a 54.6-inch viewable diagonal. Standby with the network disconnected is 0.30 W. On-mode power is what the station has to supply while the TV is on."
+ },
+ {
+  "slug": "sump-pump",
+  "label": "a sump pump",
+  "name": "Zoeller Model 53 3/10 HP sump pump, 115 V",
+  "watts": 1115.5,
+  "dailyWh": 1116,
+  "basis": "1115.5 W \u00d7 1 h/day (assumed use)",
+  "source": "https://zoellerpumps.com/product/model-m53-sump-pump/",
+  "note": "Zoeller lists the Model 53 at 3/10 HP, 115 V or 230 V, and 4.8\u20139.7 A. The 115 V automatic model in Zoeller's 50-series technical table is 9.7 A. Running watts used here are 9.7 \u00d7 115 = 1,115.5 W. Startup amps are not published. How often the float runs is site-specific, so no duty cycle is stored."
+ },
+ {
+  "slug": "ceiling-fan",
+  "label": "a ceiling fan",
+  "name": "Hunter 52774 44-inch ceiling fan, high speed",
+  "watts": 12.5,
+  "dailyWh": 100,
+  "basis": "12.5 W \u00d7 8 h/day (assumed use)",
+  "source": "https://data.energystar.gov/d/2te3-nmxp",
+  "note": "ENERGY STAR lists high speed at 12.5 W, low speed at 1.6 W, and standby at 0.3 W for this 44-inch fan. The run check uses high speed. Startup watts are not published."
+ },
+ {
+  "slug": "wifi-router",
+  "label": "a Wi-Fi router",
+  "name": "TP-Link Archer AX73 router, networked standby",
+  "watts": 8.7,
+  "dailyWh": 209,
+  "basis": "8.7 W \u00d7 24 h/day (assumed use)",
+  "source": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ax73/",
+  "note": "TP-Link lists typical power consumption in networked standby, with all wired ports connected and all wireless radios activated, at 8.7 W. The power adapter is 12 V, 2.5 A, which is a supply rating and is not used as the draw."
+ },
+ {
+  "slug": "microwave",
+  "label": "a microwave",
+  "name": "Panasonic NN-SU656WAWH microwave, electrical input",
+  "watts": 1500,
+  "dailyWh": 375,
+  "basis": "1500 W \u00d7 0.25 h/day (assumed use)",
+  "source": "https://help.na.panasonic.com/answers/features-and-specifications-microwave-oven-nn-su656wawh/",
+  "note": "Panasonic lists power supply 120 V / 60 Hz, microwave output 1,100 W, and microwave power consumption 1,500 W. The station has to supply the 1,500 W input, not the 1,100 W cooking output. A separate startup surge is not published. X-Boost and Power Lifting are not applied, because those modes are described for simple heating loads and a microwave is an electronic supply."
+ },
+ {
+  "slug": "laptop",
+  "label": "a laptop",
+  "name": "13-inch MacBook Air, included adapter maximum",
+  "watts": 60,
+  "dailyWh": 360,
+  "basis": "60 W \u00d7 6 h/day (assumed use)",
+  "source": "https://www.apple.com/macbook-air/specs/",
+  "note": "Apple's MacBook Air specs page lists a 40W Dynamic Power Adapter with 60W max for the 13-inch model, and a 53.8 Wh battery. 60 W is the adapter ceiling, not a measured average workload, so the runtime is a short estimate. Some configurations on the same page ship a 35 W dual USB-C adapter instead."
+ }
+]

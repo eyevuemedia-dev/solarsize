@@ -1,0 +1,18 @@
+# SolarSize
+
+> Free solar and battery sizing: daily kWh to panel watts, battery kWh and inverter size, using NREL PVWatts peak sun hours by state.
+
+Panel W = daily Wh / (sun hours x 0.75). Battery kWh = daily Wh x days / (0.9 x 0.9).
+
+## Start here
+- [Calculator](https://eyevuemedia-dev.github.io/solarsize/)
+- [Methodology](https://eyevuemedia-dev.github.io/solarsize/methodology/)
+- [Peak sun hours by state](https://eyevuemedia-dev.github.io/solarsize/states/)
+- [Appliances](https://eyevuemedia-dev.github.io/solarsize/appliances/)
+- [Data: states.json](https://eyevuemedia-dev.github.io/solarsize/data/states.json)
+
+## Guides
+- [Solar for an off-grid cabin](https://eyevuemedia-dev.github.io/solarsize/guides/off-grid-cabin/): Size an off-grid cabin for the worst month, not the average: use winter sun hours, add 2–3 days of battery, and keep a generator for long cloudy spells. LiFePO4 batteries tolerate daily cycling best.
+- [RV solar and battery sizing](https://eyevuemedia-dev.github.io/solarsize/guides/rv-solar/): RV systems are limited by roof space: 400–800 W of panels is typical. Size the battery for overnight loads, and remember a rooftop AC usually needs shore power or a generator.
+- [Grid-tie vs battery backup](https://eyevuemedia-dev.github.io/solarsize/guides/grid-tie-vs-backup/): A grid-tie system without a battery shuts off during an outage for lineworker safety. Backup requires a hybrid inverter and battery, or a separate backup system, installed with a transfer switch by a licensed electrician.
+- [Battery chemistry: LiFePO4 vs NMC vs lead-acid](https://eyevuemedia-dev.github.io/solarsize/guides/battery-chemistry/): LiFePO4 is the default for home and off-grid storage: thousands of cycles, about 90% usable depth of discharge and lower fire risk. Lead-acid is cheap but should stay above 50% charge. NMC is lighter but ages faster.

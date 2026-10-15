@@ -1,0 +1,85 @@
+# SolarSize
+
+> Free solar and battery sizing: daily kWh to panel watts, battery kWh and inverter size, using NREL PVWatts peak sun hours by state.
+
+Panel W = daily Wh / (sun hours x 0.75). Battery kWh = daily Wh x days / (0.9 x 0.9).
+
+## Start here
+- [Calculator](https://eyevuemedia-dev.github.io/solarsize/)
+- [Methodology](https://eyevuemedia-dev.github.io/solarsize/methodology/)
+- [Peak sun hours by state](https://eyevuemedia-dev.github.io/solarsize/states/)
+- [Appliances](https://eyevuemedia-dev.github.io/solarsize/appliances/)
+- [Data: states.json](https://eyevuemedia-dev.github.io/solarsize/data/states.json)
+
+## Guides
+- [Solar for an off-grid cabin](https://eyevuemedia-dev.github.io/solarsize/guides/off-grid-cabin/): Size an off-grid cabin for the worst month, not the average: use winter sun hours, add 2–3 days of battery, and keep a generator for long cloudy spells. LiFePO4 batteries tolerate daily cycling best.
+- [RV solar and battery sizing](https://eyevuemedia-dev.github.io/solarsize/guides/rv-solar/): RV systems are limited by roof space: 400–800 W of panels is typical. Size the battery for overnight loads, and remember a rooftop AC usually needs shore power or a generator.
+- [Grid-tie vs battery backup](https://eyevuemedia-dev.github.io/solarsize/guides/grid-tie-vs-backup/): A grid-tie system without a battery shuts off during an outage for lineworker safety. Backup requires a hybrid inverter and battery, or a separate backup system, installed with a transfer switch by a licensed electrician.
+- [Battery chemistry: LiFePO4 vs NMC vs lead-acid](https://eyevuemedia-dev.github.io/solarsize/guides/battery-chemistry/): LiFePO4 is the default for home and off-grid storage: thousands of cycles, about 90% usable depth of discharge and lower fire risk. Lead-acid is cheap but should stay above 50% charge. NMC is lighter but ages faster.
+
+## Sun hours by state (NREL PVWatts v8)
+- Arizona: 6.54 h/day, 1755 kWh/yr per kW
+- New Mexico: 6.42 h/day, 1779 kWh/yr per kW
+- Nevada: 6.41 h/day, 1753 kWh/yr per kW
+- California: 6.08 h/day, 1677 kWh/yr per kW
+- Hawaii: 5.82 h/day, 1622 kWh/yr per kW
+- Colorado: 5.66 h/day, 1595 kWh/yr per kW
+- Oklahoma: 5.5 h/day, 1542 kWh/yr per kW
+- Florida: 5.48 h/day, 1455 kWh/yr per kW
+- Kansas: 5.39 h/day, 1526 kWh/yr per kW
+- Utah: 5.39 h/day, 1484 kWh/yr per kW
+- Wyoming: 5.36 h/day, 1533 kWh/yr per kW
+- South Carolina: 5.33 h/day, 1454 kWh/yr per kW
+- Louisiana: 5.32 h/day, 1479 kWh/yr per kW
+- Mississippi: 5.26 h/day, 1414 kWh/yr per kW
+- North Carolina: 5.25 h/day, 1416 kWh/yr per kW
+- Idaho: 5.22 h/day, 1468 kWh/yr per kW
+- Texas: 5.22 h/day, 1421 kWh/yr per kW
+- Alabama: 5.21 h/day, 1367 kWh/yr per kW
+- Arkansas: 5.18 h/day, 1373 kWh/yr per kW
+- Georgia: 5.17 h/day, 1420 kWh/yr per kW
+- Missouri: 5.03 h/day, 1433 kWh/yr per kW
+- Virginia: 5.01 h/day, 1427 kWh/yr per kW
+- Nebraska: 4.98 h/day, 1423 kWh/yr per kW
+- District of Columbia: 4.9 h/day, 1391 kWh/yr per kW
+- Maryland: 4.88 h/day, 1392 kWh/yr per kW
+- South Dakota: 4.86 h/day, 1409 kWh/yr per kW
+- Tennessee: 4.82 h/day, 1338 kWh/yr per kW
+- Delaware: 4.8 h/day, 1364 kWh/yr per kW
+- Kentucky: 4.79 h/day, 1343 kWh/yr per kW
+- Pennsylvania: 4.79 h/day, 1356 kWh/yr per kW
+- Montana: 4.76 h/day, 1344 kWh/yr per kW
+- Iowa: 4.75 h/day, 1367 kWh/yr per kW
+- Massachusetts: 4.7 h/day, 1302 kWh/yr per kW
+- Rhode Island: 4.7 h/day, 1294 kWh/yr per kW
+- Indiana: 4.66 h/day, 1332 kWh/yr per kW
+- New Jersey: 4.66 h/day, 1305 kWh/yr per kW
+- Minnesota: 4.61 h/day, 1333 kWh/yr per kW
+- New Hampshire: 4.58 h/day, 1258 kWh/yr per kW
+- Wisconsin: 4.58 h/day, 1334 kWh/yr per kW
+- West Virginia: 4.57 h/day, 1219 kWh/yr per kW
+- Maine: 4.55 h/day, 1319 kWh/yr per kW
+- Ohio: 4.54 h/day, 1296 kWh/yr per kW
+- Connecticut: 4.53 h/day, 1291 kWh/yr per kW
+- Illinois: 4.51 h/day, 1308 kWh/yr per kW
+- New York: 4.5 h/day, 1291 kWh/yr per kW
+- Michigan: 4.47 h/day, 1291 kWh/yr per kW
+- North Dakota: 4.45 h/day, 1294 kWh/yr per kW
+- Vermont: 4.36 h/day, 1222 kWh/yr per kW
+- Oregon: 4.06 h/day, 1121 kWh/yr per kW
+- Washington: 3.95 h/day, 1088 kWh/yr per kW
+- Alaska: 3.17 h/day, 922 kWh/yr per kW
+
+## Appliances
+- a full-size refrigerator: 912 Wh/day (38 W annual-average draw × 24 h)
+- a mini fridge: 598 Wh/day (24.9 W annual-average draw × 24 h)
+- a chest freezer: 550 Wh/day (22.9 W annual-average draw × 24 h)
+- an 8,000 Btu window AC: 4266 Wh/day (533.3 W × 8 h/day (assumed use))
+- a 10,000 Btu window AC: 5000 Wh/day (625 W × 8 h/day (assumed use))
+- a CPAP: 449 Wh/day (56.1 W × 8 h/day (assumed use))
+- a 55-inch TV: 384 Wh/day (76.9 W × 5 h/day (assumed use))
+- a sump pump: 1116 Wh/day (1115.5 W × 1 h/day (assumed use))
+- a ceiling fan: 100 Wh/day (12.5 W × 8 h/day (assumed use))
+- a Wi-Fi router: 209 Wh/day (8.7 W × 24 h/day (assumed use))
+- a microwave: 375 Wh/day (1500 W × 0.25 h/day (assumed use))
+- a laptop: 360 Wh/day (60 W × 6 h/day (assumed use))

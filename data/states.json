@@ -1,0 +1,359 @@
+[
+ {
+  "name": "Arizona",
+  "abbr": "AZ",
+  "psh": 6.54,
+  "kwhPerKw": 1755,
+  "slug": "arizona"
+ },
+ {
+  "name": "New Mexico",
+  "abbr": "NM",
+  "psh": 6.42,
+  "kwhPerKw": 1779,
+  "slug": "new-mexico"
+ },
+ {
+  "name": "Nevada",
+  "abbr": "NV",
+  "psh": 6.41,
+  "kwhPerKw": 1753,
+  "slug": "nevada"
+ },
+ {
+  "name": "California",
+  "abbr": "CA",
+  "psh": 6.08,
+  "kwhPerKw": 1677,
+  "slug": "california"
+ },
+ {
+  "name": "Hawaii",
+  "abbr": "HI",
+  "psh": 5.82,
+  "kwhPerKw": 1622,
+  "slug": "hawaii"
+ },
+ {
+  "name": "Colorado",
+  "abbr": "CO",
+  "psh": 5.66,
+  "kwhPerKw": 1595,
+  "slug": "colorado"
+ },
+ {
+  "name": "Oklahoma",
+  "abbr": "OK",
+  "psh": 5.5,
+  "kwhPerKw": 1542,
+  "slug": "oklahoma"
+ },
+ {
+  "name": "Florida",
+  "abbr": "FL",
+  "psh": 5.48,
+  "kwhPerKw": 1455,
+  "slug": "florida"
+ },
+ {
+  "name": "Kansas",
+  "abbr": "KS",
+  "psh": 5.39,
+  "kwhPerKw": 1526,
+  "slug": "kansas"
+ },
+ {
+  "name": "Utah",
+  "abbr": "UT",
+  "psh": 5.39,
+  "kwhPerKw": 1484,
+  "slug": "utah"
+ },
+ {
+  "name": "Wyoming",
+  "abbr": "WY",
+  "psh": 5.36,
+  "kwhPerKw": 1533,
+  "slug": "wyoming"
+ },
+ {
+  "name": "South Carolina",
+  "abbr": "SC",
+  "psh": 5.33,
+  "kwhPerKw": 1454,
+  "slug": "south-carolina"
+ },
+ {
+  "name": "Louisiana",
+  "abbr": "LA",
+  "psh": 5.32,
+  "kwhPerKw": 1479,
+  "slug": "louisiana"
+ },
+ {
+  "name": "Mississippi",
+  "abbr": "MS",
+  "psh": 5.26,
+  "kwhPerKw": 1414,
+  "slug": "mississippi"
+ },
+ {
+  "name": "North Carolina",
+  "abbr": "NC",
+  "psh": 5.25,
+  "kwhPerKw": 1416,
+  "slug": "north-carolina"
+ },
+ {
+  "name": "Idaho",
+  "abbr": "ID",
+  "psh": 5.22,
+  "kwhPerKw": 1468,
+  "slug": "idaho"
+ },
+ {
+  "name": "Texas",
+  "abbr": "TX",
+  "psh": 5.22,
+  "kwhPerKw": 1421,
+  "slug": "texas"
+ },
+ {
+  "name": "Alabama",
+  "abbr": "AL",
+  "psh": 5.21,
+  "kwhPerKw": 1367,
+  "slug": "alabama"
+ },
+ {
+  "name": "Arkansas",
+  "abbr": "AR",
+  "psh": 5.18,
+  "kwhPerKw": 1373,
+  "slug": "arkansas"
+ },
+ {
+  "name": "Georgia",
+  "abbr": "GA",
+  "psh": 5.17,
+  "kwhPerKw": 1420,
+  "slug": "georgia"
+ },
+ {
+  "name": "Missouri",
+  "abbr": "MO",
+  "psh": 5.03,
+  "kwhPerKw": 1433,
+  "slug": "missouri"
+ },
+ {
+  "name": "Virginia",
+  "abbr": "VA",
+  "psh": 5.01,
+  "kwhPerKw": 1427,
+  "slug": "virginia"
+ },
+ {
+  "name": "Nebraska",
+  "abbr": "NE",
+  "psh": 4.98,
+  "kwhPerKw": 1423,
+  "slug": "nebraska"
+ },
+ {
+  "name": "District of Columbia",
+  "abbr": "DC",
+  "psh": 4.9,
+  "kwhPerKw": 1391,
+  "slug": "district-of-columbia"
+ },
+ {
+  "name": "Maryland",
+  "abbr": "MD",
+  "psh": 4.88,
+  "kwhPerKw": 1392,
+  "slug": "maryland"
+ },
+ {
+  "name": "South Dakota",
+  "abbr": "SD",
+  "psh": 4.86,
+  "kwhPerKw": 1409,
+  "slug": "south-dakota"
+ },
+ {
+  "name": "Tennessee",
+  "abbr": "TN",
+  "psh": 4.82,
+  "kwhPerKw": 1338,
+  "slug": "tennessee"
+ },
+ {
+  "name": "Delaware",
+  "abbr": "DE",
+  "psh": 4.8,
+  "kwhPerKw": 1364,
+  "slug": "delaware"
+ },
+ {
+  "name": "Kentucky",
+  "abbr": "KY",
+  "psh": 4.79,
+  "kwhPerKw": 1343,
+  "slug": "kentucky"
+ },
+ {
+  "name": "Pennsylvania",
+  "abbr": "PA",
+  "psh": 4.79,
+  "kwhPerKw": 1356,
+  "slug": "pennsylvania"
+ },
+ {
+  "name": "Montana",
+  "abbr": "MT",
+  "psh": 4.76,
+  "kwhPerKw": 1344,
+  "slug": "montana"
+ },
+ {
+  "name": "Iowa",
+  "abbr": "IA",
+  "psh": 4.75,
+  "kwhPerKw": 1367,
+  "slug": "iowa"
+ },
+ {
+  "name": "Massachusetts",
+  "abbr": "MA",
+  "psh": 4.7,
+  "kwhPerKw": 1302,
+  "slug": "massachusetts"
+ },
+ {
+  "name": "Rhode Island",
+  "abbr": "RI",
+  "psh": 4.7,
+  "kwhPerKw": 1294,
+  "slug": "rhode-island"
+ },
+ {
+  "name": "Indiana",
+  "abbr": "IN",
+  "psh": 4.66,
+  "kwhPerKw": 1332,
+  "slug": "indiana"
+ },
+ {
+  "name": "New Jersey",
+  "abbr": "NJ",
+  "psh": 4.66,
+  "kwhPerKw": 1305,
+  "slug": "new-jersey"
+ },
+ {
+  "name": "Minnesota",
+  "abbr": "MN",
+  "psh": 4.61,
+  "kwhPerKw": 1333,
+  "slug": "minnesota"
+ },
+ {
+  "name": "New Hampshire",
+  "abbr": "NH",
+  "psh": 4.58,
+  "kwhPerKw": 1258,
+  "slug": "new-hampshire"
+ },
+ {
+  "name": "Wisconsin",
+  "abbr": "WI",
+  "psh": 4.58,
+  "kwhPerKw": 1334,
+  "slug": "wisconsin"
+ },
+ {
+  "name": "West Virginia",
+  "abbr": "WV",
+  "psh": 4.57,
+  "kwhPerKw": 1219,
+  "slug": "west-virginia"
+ },
+ {
+  "name": "Maine",
+  "abbr": "ME",
+  "psh": 4.55,
+  "kwhPerKw": 1319,
+  "slug": "maine"
+ },
+ {
+  "name": "Ohio",
+  "abbr": "OH",
+  "psh": 4.54,
+  "kwhPerKw": 1296,
+  "slug": "ohio"
+ },
+ {
+  "name": "Connecticut",
+  "abbr": "CT",
+  "psh": 4.53,
+  "kwhPerKw": 1291,
+  "slug": "connecticut"
+ },
+ {
+  "name": "Illinois",
+  "abbr": "IL",
+  "psh": 4.51,
+  "kwhPerKw": 1308,
+  "slug": "illinois"
+ },
+ {
+  "name": "New York",
+  "abbr": "NY",
+  "psh": 4.5,
+  "kwhPerKw": 1291,
+  "slug": "new-york"
+ },
+ {
+  "name": "Michigan",
+  "abbr": "MI",
+  "psh": 4.47,
+  "kwhPerKw": 1291,
+  "slug": "michigan"
+ },
+ {
+  "name": "North Dakota",
+  "abbr": "ND",
+  "psh": 4.45,
+  "kwhPerKw": 1294,
+  "slug": "north-dakota"
+ },
+ {
+  "name": "Vermont",
+  "abbr": "VT",
+  "psh": 4.36,
+  "kwhPerKw": 1222,
+  "slug": "vermont"
+ },
+ {
+  "name": "Oregon",
+  "abbr": "OR",
+  "psh": 4.06,
+  "kwhPerKw": 1121,
+  "slug": "oregon"
+ },
+ {
+  "name": "Washington",
+  "abbr": "WA",
+  "psh": 3.95,
+  "kwhPerKw": 1088,
+  "slug": "washington"
+ },
+ {
+  "name": "Alaska",
+  "abbr": "AK",
+  "psh": 3.17,
+  "kwhPerKw": 922,
+  "slug": "alaska"
+ }
+]
