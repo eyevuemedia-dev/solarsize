@@ -28,4 +28,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://eyevuemedia-dev.github.io/solarsize/sitemap.xml
+Sitemap: https://solarsized.com/sitemap.xml
