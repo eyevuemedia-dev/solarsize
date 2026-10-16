@@ -1,4 +1,4 @@
-# SolarSize
+# SolarSized
 
 > Free solar and battery sizing: daily kWh to panel watts, battery kWh and inverter size, using NREL PVWatts peak sun hours by state.
 
