@@ -7,6 +7,9 @@ Panel W = daily Wh / (sun hours x 0.75). Battery kWh = daily Wh x days / (0.9 x 
 ## Start here
 - [Calculator](https://solarsized.com/)
 - [Methodology](https://solarsized.com/methodology/)
+- [About SolarSized](https://solarsized.com/about/): who publishes the site (EYEVUE Ventures), how the numbers are made, contact eyevueventures@gmail.com.
+- [Privacy policy](https://solarsized.com/privacy/): cookieless Cloudflare Web Analytics, no accounts or forms, affiliate cookies set only on the retailer's site, no sale of data. Effective 2026-10-24.
+- [Affiliate disclosure](https://solarsized.com/disclosure/): Amazon Associates links, labeled and marked rel="sponsored".
 - [Peak sun hours by state](https://solarsized.com/states/)
 - [Appliances](https://solarsized.com/appliances/)
 - [Data: states.json](https://solarsized.com/data/states.json)
