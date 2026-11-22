@@ -75,7 +75,7 @@ Panel W = daily Wh / (sun hours x 0.75). Battery kWh = daily Wh x days / (0.9 x 
 
 ## Appliances
 - a full-size refrigerator: 912 Wh/day (38 W annual-average draw × 24 h)
-- a mini fridge: 598 Wh/day (24.9 W annual-average draw × 24 h)
+- a mini fridge: 598 Wh/day (24.9 W annual-average draw × 24 h) — now a roundup (2026-11-22) <!-- mf-1122 -->: Avanti RMRS31X 463 Wh/day, Frigidaire EFR331 540, EFR492 559, Dometic CFX5 45 (12 V) 302, ICECO JP40 Pro 323; 12 V fridges avoid ~360 Wh/day of power-station inverter idle. https://solarsized.com/appliances/mini-fridge/
 - a chest freezer: 550 Wh/day (22.9 W annual-average draw × 24 h) — full guide (updated 2026-11-20) <!-- cf-1120 -->: 7 cu ft compact chest median 616 Wh/day (225 kWh/yr), 9-10.6 cu ft chest 584 Wh/day (213 kWh/yr), upright auto-defrost 11-16 cu ft 1,085 Wh/day; Haier chest start-up 759 W / running 195.5 W; 400 W panels + 1.5-2 kWh LiFePO4 + >=1,000 W surge for off-grid 7 cu ft. https://solarsized.com/appliances/chest-freezer/
 - an 8,000 Btu window AC: 4266 Wh/day (533.3 W × 8 h/day (assumed use))
 - a 10,000 Btu window AC: 5000 Wh/day (625 W × 8 h/day (assumed use))
