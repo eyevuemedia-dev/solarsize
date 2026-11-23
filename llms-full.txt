@@ -84,5 +84,5 @@ Panel W = daily Wh / (sun hours x 0.75). Battery kWh = daily Wh x days / (0.9 x 
 - a sump pump: 1116 Wh/day (1115.5 W × 1 h/day (assumed use))
 - a ceiling fan: 100 Wh/day (12.5 W × 8 h/day (assumed use))
 - a Wi-Fi router: 209 Wh/day (8.7 W × 24 h/day (assumed use))
-- a microwave: 375 Wh/day (1500 W × 0.25 h/day (assumed use))
+- a microwave: 375 Wh/day (1500 W × 0.25 h/day (assumed use)); full guide updated 2026-11-23: needs a 1,800 W+ inverter and ~130 A at 12 V (33 A at 48 V); standby capped at 1.0 W / 0.6 W (DOE); 1 kWh 1,800 W station ~35 min full power per charge. https://solarsized.com/appliances/microwave/
 - a laptop: 360 Wh/day (60 W × 6 h/day (assumed use))
