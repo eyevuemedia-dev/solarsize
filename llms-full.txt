@@ -79,8 +79,8 @@ Panel W = daily Wh / (sun hours x 0.75). Battery kWh = daily Wh x days / (0.9 x 
 - a chest freezer: 550 Wh/day (22.9 W annual-average draw × 24 h) — full guide (updated 2026-11-20) <!-- cf-1120 -->: 7 cu ft compact chest median 616 Wh/day (225 kWh/yr), 9-10.6 cu ft chest 584 Wh/day (213 kWh/yr), upright auto-defrost 11-16 cu ft 1,085 Wh/day; Haier chest start-up 759 W / running 195.5 W; 400 W panels + 1.5-2 kWh LiFePO4 + >=1,000 W surge for off-grid 7 cu ft. https://solarsized.com/appliances/chest-freezer/
 - an 8,000 Btu window AC: 4266 Wh/day (533.3 W × 8 h/day (assumed use))
 - a 10,000 Btu window AC: 5000 Wh/day (625 W × 8 h/day (assumed use))
-- a CPAP: 449 Wh/day (56.1 W × 8 h/day (assumed use))
-- a 55-inch TV: 384 Wh/day (76.9 W × 5 h/day (assumed use))
+- a CPAP: 449 Wh/day (56.1 W × 8 h/day (assumed use)); ceiling (heated humidification). Full guide updated 2026-11-26: ResMed-measured AirSense 11 7 W humidifier off (56 Wh/night on DC), 19 W HumidAir (152 Wh), 55 W heated tube (440 Wh); inverter idle 15–40 W adds 120–320 Wh on AC. https://solarsized.com/appliances/cpap/
+- a 55-inch TV: 384 Wh/day (76.9 W × 5 h/day (assumed use)); one efficient set. ENERGY STAR certified medians (2026-11-26): 55-inch 95.5 W, 65-inch 117.7 W, 75-inch 144.0 W. https://solarsized.com/appliances/tv/
 - a sump pump: 1116 Wh/day (1115.5 W × 1 h/day (assumed use))
 - a ceiling fan: 100 Wh/day (12.5 W × 8 h/day (assumed use))
 - a Wi-Fi router: 209 Wh/day (8.7 W × 24 h/day (assumed use))
